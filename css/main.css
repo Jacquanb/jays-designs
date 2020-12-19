@@ -1,3 +1,74 @@
+/**** style base****/
 body {
-  background: gray;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #fff8dc;
+}
+
+/*****Grid****/
+header {
+  background: url("../img/keyboard.jpg") no-repeat;
+  background-size: cover;
+  height: 466px;
+  margin: 0;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  overflow: inherit;
+  padding-left: 400px;
+  color: #fff8dc;
+}
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+  display: flex;
+  justify-content: flex-start;
+  width: 600px;
+}
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: row;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  border-left: solid;
+  border-color: orange;
+  border-width: thin;
+  width: 1000px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+#contact {
+  background: black;
+  color: white;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: column wrap;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row;
 }
