@@ -20,9 +20,10 @@ header {
   color: #fff8dc;
 }
 .full-width {
-    width: 1200px;
+    width: auto;
     margin: 0 auto;
     overflow: auto;
+    padding-right: 100px;
 }
 .half-width {
   display: flex;
@@ -55,6 +56,29 @@ header {
   font-size: 40px;
 }
 
+#work {
+  background-color: #ffa300;
+}
+
+.work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.projects {
+  padding-left: 170px;
+  padding-bottom: 40px;
+  padding-right: 70px;
+}
+
 #contact {
   background: black;
   color: white;
@@ -72,6 +96,13 @@ header {
   justify-content: center;
   text-align: center;
   flex-flow: row;
+}
+
+.email{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: column;
 }
 
 #about {
