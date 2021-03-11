@@ -7,59 +7,78 @@
         <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700&family=Patrick+Hand&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+        <!-- other head stuff... -->
+        <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
     </head>
 
     <body>
+
+      <!-- all your great html... -->
+      <script src="/path/to/flickity.pkgd.min.js"></script>
+
     <header>
       <div class="full-width">
-        <div class="half-width"
+        <div class="nav">
+         <nav>
+          <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="resume">Resume</a></li>
+          </ul>
+         </nav>
+        </div>
+        <div class="half-width">
           <h1>Jays Designs</h1>
           <img src="img/drawing.png" alt="drawing"/>
         </div>
       <div class="half-width">
         <h1>Let's Code Something Amazing</h1>
       </div>
+    </div>
     </header>
 
     <section id="about">
-      <div class="full-witdth">
-        <h2> About Me </h2>
-        <p>I am a Freelance front-end developer and react developer that thrives on creating the most user friendly websites for small businesses. I am very proud of my decision to become a developer and can honestly say this is the most intense studying I've ever done in my life lol.</p>
-        <p>When I’m not working on a project I enjoy taking long walks around downtown chicago at night, especially around the lakefront. It's always a calming feeling seeing the city and lake at night and enjoying the great outdoors.</p>
+      <div class="full-width">
+        <div class="half-width">
+          <h2> About Me </h2>
+        </div>
+        <div class="half-width">
+          <p>I am a Freelance front-end developer and react developer that thrives on creating the most user friendly websites for small businesses. I am very proud of my decision to become a developer and can honestly say this is the most intense studying I've ever done in my life lol.</p>
+          <p>When I’m not working on a project I enjoy taking long walks around downtown chicago at night, especially around the lakefront. It's always a calming feeling seeing the city and lake at night and enjoying the great outdoors.</p>
+        </div>
       </div>
     </section>
 
-    <section id="services">
-      <div class="services">
-        <h2>Services</h2>
-      </div>
-      <div class="flex-container">
-        <div class="flex-item">
-          <img src="img/web.png" alt="web image"/>
-          <h2> Web Development </h2>
-          <p> Building a custom responsive website that is easy to use towards your goals and desires. </p>
+    <section id="skills">
+      <div class="full-width">
+        <div class="half-width">
+          <h1>skills</h1>
         </div>
-        <div class="flex-item">
-          <img src="img/react.png" alt="react"/>
-          <h2> React </h2>
-          <p> Help improve user experience with better interactive user interface </p>
+        <div class="half-width">
+          <p>Html</p>
+          <p> css </p>
+          <p> Javascript</p>
+          <p> React.js </p>
+          <p> Responsive design</P>
+          <P> GitHub </p>
+          <p> Gitbash</p>
         </div>
       </div>
     </section>
+
 
     <section id="work">
-      <div class="work">
-        <h2>Work</h2>
-      </div>
-      <div class="projects-container">
-        <div class="projects">
-          <img src="img/jubilee-site.png" alt="jubilee website" />
-        </div>
-        <div class="projects">
-          <img src="img/rogue.png" alt="rogue" />
-        </div>
+      <div class="container">
+        <img src="img/jubilee-site.png"/>
+        <img src="img/lolcat.png"/>
+        <img src="img/rogue.png"/>
+        <img src="img/responsive-rogue.png"/>
+        <img src="img/election-map.png"/>
       </div>
     </section>
+
 
       <footer id="contact">
         <div class="full-width">
@@ -78,5 +97,9 @@
           </div>
         </div>
       </footer>
+
+      <script type="text/javascript" src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2017/11/map.js"></script>
+      <script type ="text/javascript" src="java/script.js"></script>
+      <script type= "text/javascript" src="js/work.js"></script>
     </body>
 </html>
