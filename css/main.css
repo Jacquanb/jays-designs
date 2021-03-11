@@ -85,17 +85,26 @@ nav {
   align-items: center;
   padding-bottom: 15px;
 }
+
 #skills .full-width {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 1125px;
+  border-top: 12px solid black;
+  border-bottom: 12px solid black;
 }
+
 #skills .half-width {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  padding-right: 100px;
+}
+#skills .half-width p {
+  padding-right: 165px;
 }
 
 #skills h1 {
@@ -123,6 +132,13 @@ nav {
 
 .container::-webkit-scrollbar {
   display: none;
+}
+
+#work h2 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  padding-left: 125px;
 }
 /****end work****/
 
@@ -256,12 +272,19 @@ nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%;
+  border-top: 12px solid black;
+  border-bottom: 12px solid black;
 }
 #skills .half-width {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  padding-right: 100px;
+}
+#skills .half-width p {
+  padding-right: 165px;
 }
 
 #skills h1 {
@@ -290,6 +313,12 @@ nav {
 
 .container::-webkit-scrollbar {
   display: none;
+}
+#work h2 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  padding-right: 100px;
 }
 /*****end of work*****/
 
