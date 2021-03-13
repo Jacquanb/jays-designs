@@ -43,7 +43,7 @@ nav ul {
 nav ul li a {
     text-transform: capitalize;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 35px;
     color: inherit;
 }
 
@@ -138,7 +138,7 @@ nav {
   font-size: 40px;
   display: flex;
   justify-content: center;
-  padding-left: 125px;
+  width: 1130px;
 }
 /****end work****/
 
@@ -318,12 +318,16 @@ nav {
   font-size: 40px;
   display: flex;
   justify-content: center;
-  padding-right: 100px;
+  align-items: center;
+  width: 1320px;
 }
 /*****end of work*****/
 
 /*****footer*****/
 #contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: black;
   color: white;
   width: 100%;
