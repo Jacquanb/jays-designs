@@ -69,7 +69,7 @@ nav {
 }
 
 #about .full-width h2 {
-  font-size: 40px;
+  font-size: 45px;
   display: flex;
 }
 
@@ -105,10 +105,11 @@ nav {
 }
 #skills .half-width p {
   padding-right: 165px;
+  font-size: 25px;
 }
 
 #skills h1 {
-  font-size: 40px;
+  font-size: 45px;
   padding-right: 70px;
 }
 
@@ -135,7 +136,7 @@ nav {
 }
 
 #work h2 {
-  font-size: 40px;
+  font-size: 45px;
   display: flex;
   justify-content: center;
   width: 1130px;
@@ -147,6 +148,13 @@ nav {
   background: black;
   color: white;
   width: 1125px;
+}
+.contact h2{
+  font-size: 45px;
+}
+
+.contact p{
+  font-size: 20px;
 }
 
 .contact {
