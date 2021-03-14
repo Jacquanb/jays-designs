@@ -14,6 +14,7 @@ header {
   display: flex;
   color: #fff8dc;
   width: 1125px;
+  padding-top: 20px;
 }
 
 header .full-width {
@@ -179,6 +180,84 @@ nav {
 }
 /*****end of footer*****/
 
+/****resume*****/
+
+/****resumeskills****/
+  #resumeskills h2 {
+    width: 115%;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 12px solid black;
+    font-size: 40px;
+  }
+
+  #resumeskills h3 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 35px;
+  }
+  #resumeskills p {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+  }
+/****end resumeskilles****/
+
+/****experience****/
+  #experience h2 {
+    width: 115%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 40px;
+    border-bottom: 12px solid black;
+  }
+
+  #experience h3  {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 35px;
+  }
+
+  #experience h4 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+  }
+
+  #experience ul li {
+    font-size: 25px;
+  }
+/****end experience****/
+
+/****education*****/
+  #education h2 {
+    width: 115%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 40px;
+    border-bottom: 12px solid black;
+  }
+
+  #education h3 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 35px;
+  }
+
+  #education h4 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-weight: lighter;
+  }
+
+  #education ul li {
+    font-size: 25px;
+  }
+/****end education****/
+
+/****end resume
+
 /****end mobile****/
 
 @media screen and (min-width:768px) {
@@ -197,6 +276,7 @@ body {
 
 .full-width{
   width: 1200px;
+  height: auto;
 }
 /*****end of grid*****/
 
@@ -213,6 +293,7 @@ header {
   align-items: center;
   color: #fff8dc;
   width: 100%;
+  padding-top: 20px;
 }
 header .half-width h1 {
   font-size: 70px;
